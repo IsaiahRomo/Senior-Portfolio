@@ -63,7 +63,9 @@
             }
 
             .mb-auto{
-              padding: 1em;
+              padding-top: 1em;
+              padding-left: 1em;
+              padding-right: 1em;
             }
 
             .mt-auto{
@@ -74,17 +76,39 @@
               padding: 0rem!important;
             }
             .px-3 {
-              padding: 0rem!important;
+              padding: 3rem!important;
+              transform: translateY(300px);
+              animation: slideUp .8s ease-in-out forwards .2s;
             }
 
             .card{
               border-radius: 0%;
               background: #190226;
+              padding-top: 1em;
             }
 
             .btn{
               color: #BF307F;
               border-color: #BF307F;
+            }
+            .btn a{
+              color: #BF307F;
+              text-decoration: none;
+            }
+            .btn:hover a{
+              color: #190226;
+            }
+            .btn:hover{
+              color: #190226;
+              border-color: #190226;
+              background: #BF307F;
+            }
+            rect {
+              padding-top: 5px;
+            }
+            a {
+              text-decoration: none;
+              color: #190226;
             }
         </style>
     
@@ -99,90 +123,84 @@
             <div id="nav">
                 <h3 class="float-md-start mb-0">Work</h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
                 <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="work.html">Work</a>
+                <a class="nav-link active" href="work.html">Work</a>
                 <a class="nav-link" href="contact.html">Contact</a>
                 </nav>
             </div>
             </header>
         
             <main class="px-3">
+              <div class=" row row-cols-2">
                 <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                      role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                      <title>Placeholder</title>
+                      <img src="City.jpeg" />
+                      <title>Work</title>
                       <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
                         dy=".3em">Thumbnail</text>
-                    </svg>
                     <div class="card-body">
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                           content. This content is a little bit longer.</p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="">View</a></button>
                           </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                      role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img src="City.jpeg" />
                       <title>Placeholder</title>
                       <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
                         dy=".3em">Thumbnail</text>
-                    </svg>
                     <div class="card-body">
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                           content. This content is a little bit longer.</p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="">View</a></button>
                           </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                      role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img src="City.jpeg" />
                       <title>Placeholder</title>
                       <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
                         dy=".3em">Thumbnail</text>
-                    </svg>
                     <div class="card-body">
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                           content. This content is a little bit longer.</p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="">View</a></button>
                           </div>
                         </div>
                     </div>
                 </div>    
 
                 <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                      role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img src="City.jpeg" />
                       <title>Placeholder</title>
                       <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
                         dy=".3em">Thumbnail</text>
-                    </svg>
                     <div class="card-body">
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                           content. This content is a little bit longer.</p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="">View</a></button>
                           </div>
                         </div>
                     </div>
+                  </div>
                 </div> 
               </main>
         
             <footer class="mt-auto">
-                Gmail: isaiahromo22@gmail.com | Github
+                E: <a href="mailto:isaiahromo22@gmail.com">isaiahromo22@gmail.com</a> | Github
             </footer>
         </div>
 
